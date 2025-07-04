@@ -1,0 +1,453 @@
+.section1 {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.nav-link:hover {
+    color: rgb(255, 77, 0) !important;
+    text-decoration: underline;
+}
+
+
+
+.section2 {
+    width: 100%;
+    float: left;
+    height: 665px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.iamtanmay {
+    font-size: 70px;
+    color: antiquewhite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid antiquewhite;
+    width: 0;
+    animation: typing 4s steps(11, end) forwards, blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 13ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.home1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(0, 0, 0);
+}
+
+.hello {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.hello {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.homeimg {
+    width: 300px;
+    height: 450px;
+    float: left;
+    border-radius: 100px;
+    margin-top: 90px;
+    margin-left: 140px;
+}
+
+
+@media (max-width: 900px) {
+    .home1 {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: rgb(0, 0, 0);
+    }
+    .iamtanmay {
+    font-size: 50px;
+    color: antiquewhite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid antiquewhite;
+    width: 0;
+    animation: typing 4s steps(11, end) forwards, blink 0.8s step-end infinite;
+    margin-left: 40px;
+    }
+    .hello {
+        margin-top: 150px;
+        margin-left: 20px;
+        pre{
+            margin-left: 40px;
+            font-size: 20px;
+        }
+        a{
+            margin-left: 40px;
+            font-size: 20px;
+        }
+    }
+
+    .home2 {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .homeimg {
+        width: 300px;
+        height: 450px;
+        float: left;
+        border-radius: 100px;
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 575px) {
+    .home1 {
+        width: 100%;
+        height: 50%;
+        float: left;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .hello {
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+
+    .iamtanmay {
+        font-size: 40px;
+        color: antiquewhite;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid antiquewhite;
+        width: 0;
+        animation: typing 4s steps(11, end) forwards, blink 0.8s step-end infinite;
+    }
+
+    .home2 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .homeimg {
+        width: 200px;
+        height: 300px;
+        float: left;
+        border-radius: 100px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+}
+
+/*  */
+/*  */
+/*  */
+/* about */
+.section3 {
+    width: 100%;
+    height: 665px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.aboutimg {
+    width: 250px;
+    height: 350px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 50%;
+}
+
+.aboutimgdiv {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: #000000;
+}
+
+.aboutdet {
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: #000000;
+    color: #000000;
+
+    pre {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: antiquewhite;
+        padding: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutimg {
+        width: 250px;
+        height: 350px;
+        float: left;
+        margin-top: 100px;
+        margin-left: 60px;
+        border-radius: 50%;
+    }
+
+    .aboutimgdiv {
+        width: 40%;
+        height: 100%;
+        float: left;
+        background-color: #000000;
+    }
+
+    .aboutdet {
+        width: 60%;
+        height: 100%;
+        float: left;
+        background-color: #000000;
+        color: #000000;
+    }
+}
+
+@media (max-width:575px) {
+    .aboutimg {
+        width: 200px;
+        height: 250px;
+        float: left;
+        margin-top: 60px;
+        margin-left: 120px;
+        border-radius: 50%;
+    }
+
+    .aboutimgdiv {
+        width: 100%;
+        height: 50%;
+        float: left;
+        background-color: #000000;
+    }
+
+    .aboutdet {
+        width: 100%;
+        height: 50%;
+        float: left;
+        background-color: #000000;
+        color: #000000;
+
+        pre {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+            color: antiquewhite;
+            padding: 10px;
+            margin-top: 0px;
+            text-align: center;
+        }
+    }
+}
+
+/*  */
+/*  */
+/*  */
+
+
+/* resume */
+.section4 {
+    width: 100%;
+    height: 665px;
+    background-color: #000000;
+    float: left;
+}
+
+.resumename {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: antiquewhite;
+    float: left;
+}
+
+.resumeinfo {
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    color: antiquewhite;
+    float: left;
+
+}
+
+.infor {
+    width: 80%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    background: black;
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+@media(max-width:500px) {
+    .resumeinfo {
+        width: 40%;
+        height: 40%;
+        /* text-align: center; */
+        color: antiquewhite;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .infor {
+        width: 40%;
+        height: 40%;
+        float: left;
+        text-align: center;
+        color: antiquewhite;
+        border: 2px solid antiquewhite;
+        background: rgb(0, 0, 0);
+        border-radius: 30px;
+        padding: 30px; 
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:991px) {
+    .resumeinfo {
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        color: antiquewhite;
+        float: left;
+
+    }
+
+    .infor {
+        width: 80%;
+        height: 80%;
+        float: left;
+        text-align: center;
+        color: antiquewhite;
+        border: 2px solid antiquewhite;
+        background: black;
+        border-radius: 30px;
+        padding: 30px;
+        margin-left: 80px;
+        margin-top: 20px;
+
+    }
+}
+
+
+/* Skills section */
+.section5 {
+    width: 100%;
+    height: 665px;
+    background-color: #000000;
+    float: left;
+
+    p {
+        color: antiquewhite;
+    }
+}
+
+.skilldiv {
+    width: 50%;
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+
+}
+
+.progline {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding: 30px;
+}
+
+@media (max-width: 575px) {
+    .skilldiv {
+        width: 100%;
+        height: 40px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .progline {
+        width: 100%;
+        height: 50px;
+        float: left;
+        padding: 30px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .skilldiv {
+        width: 100%;
+        height: 40px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .progline {
+        width: 100%;
+        height: 50px;
+        float: left;
+        padding: 30px;
+    }
+
+}
+
+/* contact us */
+.section6 {
+    width: 100%;
+    height: 665px;
+    background-color: #000000;
+    float: left;
+
+    label {
+        color: antiquewhite;
+    }
+
+    h1 {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+
+    input:focus {
+        background-color: #222;
+        color: white;
+    }
+
+    textarea:focus {
+        background-color: #222;
+        color: white;
+    }
+}
